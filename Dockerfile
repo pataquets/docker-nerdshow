@@ -4,4 +4,3 @@ RUN \
   npm install nerdshow -g
 
 ENTRYPOINT [ "nerdshow" ]
-CMD [ "/presentation/" ]
