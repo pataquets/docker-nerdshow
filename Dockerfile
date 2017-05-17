@@ -1,3 +1,7 @@
 FROM node
 
-RUN npm install nerdshow -g
+RUN \
+  npm install nerdshow -g
+
+ENTRYPOINT [ "nerdshow" ]
+CMD [ "/presentation/" ]
